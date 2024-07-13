@@ -1,7 +1,7 @@
 
 import java.util.Random;
 
-public class MatrixTest {
+public class Matrix {
     //Creating the matrix
     static int[][] mat = new int[3][3];
     static int[][] mat2 = new int[3][3];
@@ -79,7 +79,7 @@ public class MatrixTest {
 }//End Class
 
 //Multiply Class
-class Multiply extends MatrixTest {
+class Multiply extends Matrix {
     private int i;
     private int j;
     private int chance;
